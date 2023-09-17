@@ -1,0 +1,4 @@
+host: https://localhost:9200
+password: t4Y9-DFVtr05iN7u=q6E
+cert_path: "vector_db/creds/http_ca.crt"
+index: embeddings

@@ -1,0 +1,2 @@
+processed_path: "data_processor/content/articles.pkl"
+raw_data_path: "data_processor/content/raw_articles.json"
