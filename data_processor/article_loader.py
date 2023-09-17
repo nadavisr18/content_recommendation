@@ -10,7 +10,7 @@ from .loader import Loader
 
 
 class ArticleLoader(Loader):
-    with open("config.yaml", 'r') as file:
+    with open("data_processor/config.yaml", 'r') as file:
         config = yaml.load(file, yaml.FullLoader)
 
     @classmethod

@@ -6,7 +6,7 @@ import yaml
 from elasticsearch import Elasticsearch
 from elasticsearch.exceptions import NotFoundError
 
-import elastic_queries as queries
+import vector_db.elastic_queries as queries
 
 
 class VectorDB:

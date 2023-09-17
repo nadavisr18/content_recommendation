@@ -23,14 +23,21 @@ def upload_vectors():
 
 def run_recommendation():
     data = """
-We show that the anomaly of the positron fraction observed by the PAMELA
-experiment can be attributed to recent supernova explosion(s) in a dense gas
-cloud (DC) near the Earth. Protons are accelerated around the supernova remnant
-(SNR). Electrons and positrons are created through hadronic interactions inside
-the DC. Their spectrum is harder than that of the background because the SNR
-spends much time in a radiative phase. Our scenario predicts that the
-anti-proton flux dominates that of the background for >~100 GeV. We compare the
-results with observations (Fermi, HESS, PPB-BETS, and ATIC).
+Crohn's disease (CD) is associated with an ecological imbalance of the
+intestinal microbiota, consisting of hundreds of species. The underlying
+complexity as well as individual differences between patients contributes to
+the difficulty to define a standardized treatment. Computational modeling can
+systematically investigate metabolic interactions between gut microbes to
+unravel novel mechanistic insights. In this study, we integrated metagenomic
+data of CD patients and healthy controls with genome-scale metabolic models
+into personalized in silico microbiotas. We predicted short chain fatty acid
+(SFCA) levels for patients and controls, which were overall congruent with
+experimental findings. As an emergent property, low concentrations of SCFA were
+predicted for CD patients and the SCFA signatures were unique to each patient.
+Consequently, we suggest personalized dietary treatments that could improve
+each patient's SCFA levels. The underlying modeling approach could aid clinical
+practice to find novel dietary treatment and guide recovery by rationally
+proposing food aliments.
         """
 
     text2vec = Text2Vec()

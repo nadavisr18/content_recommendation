@@ -9,7 +9,7 @@ class Text2Vec:
         self.tokenizer = BertTokenizer.from_pretrained(model_name)
         self.model = BertModel.from_pretrained(model_name)
         self.model.eval()
-        self.vector_size = self.model.db_conf.hidden_size
+        self.vector_size = self.model.config.hidden_size
 
         # Check if CUDA (GPU support) is available, and if so, move the model to the GPU
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
